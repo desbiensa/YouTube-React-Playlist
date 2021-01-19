@@ -27,7 +27,7 @@ const Youtube = () => {
     return(
         <div>
             <ul>{
-                videos.map((item, index) => {
+                videos.map((item) => {
                     return <li key={item.vid}>
                                 <Player 
                                     title={item.title}

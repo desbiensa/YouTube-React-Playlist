@@ -1,0 +1,21 @@
+.description {
+    text-align: justify!important;
+    margin: auto;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.pageLayout {
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+@media (max-width: 605px) {
+    .description {
+        width: 95%;
+    }
+    .pageLayout {
+        width: 95%;
+    }
+}

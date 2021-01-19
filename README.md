@@ -1,4 +1,4 @@
-##Description:
+## Description:
 This is the best way I found to put a Vlog that reflects the content of my YouTube channel's playlist. I have managed to have the description formatted to my liking, but still I wasn't able yet to make the `target=_blank` on the linkify(1.0.0-alpha), I guess we will see if they update it one day.
 
 Features:
@@ -11,8 +11,8 @@ Features:
 ..* The video playlist will show the latest post first on top.
 
 
-##Eazy to use:
-###Steps: 
+## Eazy to use:
+### Steps: 
 1. Download or clone repo.
 2. Copy needed component to your project.
 3. Add the necessary dependencies

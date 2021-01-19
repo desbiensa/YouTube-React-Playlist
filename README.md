@@ -3,9 +3,9 @@ This is the best way I found to put a Vlog that reflects the content of my YouTu
 
 Features:
 * Youtube API v3 on React.
-⋅⋅* title
-⋅⋅* video
-⋅⋅* description
+⋅⋅1. title
+⋅⋅2. video
+⋅⋅3. description
 * Formatted description.
 * If you have links in your description, they will show as clickable links.
 * The video playlist will show the latest post first on top.

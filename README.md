@@ -16,8 +16,9 @@ This is the best way I found to put a Vlog that reflects the content of my YouTu
 ..* react-linkify
 ..* I have use Materialize CSS for the video-container class, but it's really not necessary. (https://materializecss.com/media-css.html).
 4. Create and Activate your Youtube API --> https://developers.google.com/youtube
-5. Create a `.env` file in your project source (NOT IN THE "src" FOLDER) with your API Key (REACT_APP_YOUTUBE_API_KEY="your API key here").
-6. You might have to restart your server.
-7. Yarn or NPM install and you are good to go!
+5. Create a `.env` file in your project source (NOT IN THE "src" FOLDER) with your API Key like this --> REACT_APP_YOUTUBE_API_KEY="your API key here".
+6. In the same `.env` file, you will add REACT_APP_YOUTUBE_PLAYLIST="your PLAYLIST id here" (you can retrieve in address bar of your browser, usualy starts with PL...).
+7. You might have to restart your server.
+8. Yarn or NPM install and you are good to go!
 
 Enjoy and Ping me if you need help, have question or see potential for improvement!

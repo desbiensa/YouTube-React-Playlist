@@ -3,12 +3,14 @@ import Player from './player/Player';
 
 const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY
 
+const PLAYLIST = process.env.REACT_APP_YOUTUBE_PLAYLIST
+
 const Youtube = () => {
 
     const [videos, setVideos] = useState([]);
     
     useEffect(() => {
-        fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2C%20contentDetails&maxResults=10&playlistId=PLlKKPNsyXjdbSlbkMK_Gl9WsczNh-1Pla&key=${API_KEY}`)
+        fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2C%20contentDetails&maxResults=10&playlistId=${PLAYLIST}&key=${API_KEY}`)
         .then(res=>res.json())
         .then(data=> {
             // console.log('data', data)
